@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #d0d9f6;
+  color: white;
+  align-items: center;
+  height: 100px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+header div:hover {
+  color: #325cfd;
+}
+
+header img {
+  width: 100px;
+}
+header h1 {
+  margin: 15px;
+}
+header h1 span {
+  text-decoration: underline;
+}
+
+.nav-links {
+  margin: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 0 40px;
+  font-size: 20px;
+  color: white;
+}
+.nav-links a:hover {
+  color: #325cfd;
+}
+
+/* hero section */
+
+.hero-table {
+  text-align: center;
+}
+
+.gg-ev {
+  text-decoration: underline #325cfd;
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.hero-op {
+  margin: 0 14px;
+}
+.hero-op h1 {
+  text-decoration: underline #325cfd;
+}
+
+.hero-op p {
+  margin: 12px;
+}
+
+.hero-table-row table {
+  width: 100%;
+}
+
+.hero-table-row table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px 0;
+}
+
+.hero-urgense h1 {
+  text-decoration: underline #325cfd;
+  margin: 15px 0;
+}
+
+.hero-urgense p {
+  margin: 12px;
+}
+
+.hero-urg2 h1 {
+  text-decoration: underline #325cfd;
+  margin: 15px 0;
+}
+
+.hero-urg2 p {
+  margin: 12px;
+}
+section {
+  background: #d0d9f6bd;
+  margin: -15;
+  padding: 15px 0;
+}
+/* footer section */
+
+footer {
+  text-align: center;
+  background: #d0d9f6;
+  padding: 40px;
+}
+footer p {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+footer a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div id="app" class="app">
+      <header class="header">
+        <nav>
+          <img
+            src="./media/images/fakelogo.jpg"
+            width="50"
+            height="50"
+            alt="logo"
+          />
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Work</a>
+            </li>
+            <li>
+              <a href="#">Resume</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="hh" id="aboutSection">
+          <h1>About me</h1>
+          <figure>
+            <img
+              src="./media/images/hh.jpg"
+              width="200"
+              height="200"
+              alt="myimg"
+            />
+            <figcaption>This is a picture of me</figcaption>
+          </figure>
+          <h2>GHAITH TAYEM</h2>
+          <p>
+            Velit et pariatur in duis amet pariatur sit duis anim cupidatat
+            aliquip Lorem <span>non excepteur. Non excepteur</span> nulla
+            eiusmod in consectetur ea est ad sit veniam labore qui. Officia
+            occaecat non anim ex est. Nulla dolore consectetur reprehenderit
+            aliquip.
+          </p>
+
+          <a href="https://linkedin.com/in/abdelkader-lounis" target="_blank"
+            >Visit my linked in
+          </a>
+        </div>
+        <div class="mm" id="workSection">
+          <h1>My work</h1>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Project title</th>
+                <th>Project description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>GHAITH</td>
+                <td>TAYEM</td>
+                <td>title 1</td>
+                <td>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Officiis rerum totam quae excepturi voluptatibus nesciunt sit
+                  ad inventore, maiores, sunt accusantium nobis aperiam placeat
+                  ut recusandae suscipit eius rem quis?
+                </td>
+              </tr>
+              <tr>
+                <td>GHAITH</td>
+                <td>TAYEM</td>
+                <td>title 2</td>
+                <td>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Officiis rerum totam quae excepturi voluptatibus nesciunt sit
+                  ad inventore, maiores, sunt accusantium nobis aperiam placeat
+                  ut recusandae suscipit eius rem quis?
+                </td>
+              </tr>
+              <tr>
+                <td>GHAITH</td>
+                <td>TAYEM</td>
+                <td>title 3</td>
+                <td>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Officiis rerum totam quae excepturi voluptatibus nesciunt sit
+                  ad inventore, maiores, sunt accusantium nobis aperiam placeat
+                  ut recusandae suscipit eius rem quis?
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="jj" id="resumeSection">
+          <aside>
+            <h1>My Resume</h1>
+            <video
+              controls
+              width="200"
+              height="200"
+              poster="./media/images/hh.jpg"
+            >
+              <source
+                src="./media/images/production ID_3831766.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="C:\Users\ACER ASPIRE\Downloads\DT.ogg"
+                type="video/ogg"
+              />
+              Your browser dosn't support video tag
+            </video>
+          </aside>
+          <article>
+            <h2>I know many skills</h2>
+            <dl>
+              <dt>HTML</dt>
+              <dd>I use html to structure the page</dd>
+              <dt>CSS</dt>
+              <dd>i use css to style my webpage</dd>
+              <dt>Javascript</dt>
+              <dd>
+                I use JavaScript to manipulate dynamic interatctions in my web
+                page
+              </dd>
+            </dl>
+          </article>
+        </div>
+        <div id="contactSection">
+          <h1>Contact</h1>
+          <fieldset>
+            <legend>Fill this form to contact me</legend>
+            <form>
+              <label>Full name</label><br />
+              <input
+                type="text"
+                name="fullName"
+                id="fullName"
+                maxlength="10"
+                placeholder="enter your name"
+              />
+              <br />
+              <label>Email</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="enter your email"
+              />
+              <br />
+              <label>Project type</label>
+              <input type="radio" name="projectType" id="ecom" value="ecom" />
+              <span>Ecommerce</span>
+              <input
+                type="radio"
+                name="projectType"
+                id="elarn"
+                value="elearn"
+              />
+              <span>Elearning</span>
+              <input type="radio" name="projectType" id="blog" value="blog" />
+              <span>Bl</span>
+              <br />
+              <label>Message</label><br />
+              <textarea
+                maxlength="10"
+                name="messsage"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <br />
+              <input type="reset" value="reset form" />
+              <input type="submit" value="send form" />
+            </form>
+          </fieldset>
+        </div>
+      </main>
+
+      <footer>
+        <center>
+          <h1><i>You can find me on social media</i></h1>
+          <a href="#" target="_blank">
+            <img
+              src="./media/images/icons/facebook.svg"
+              width="50"
+              height="50"
+              alt="facebook icon"
+            />
+          </a>
+          <a href="#" target="_blank">
+            <img
+              src="./media/images/icons/instagram.svg"
+              width="50"
+              height="50"
+              alt="instagram icon"
+            />
+          </a>
+          <a href="#" target="_blank">
+            <img
+              src="./media/images/icons/twitter.svg"
+              width="50"
+              height="50"
+              alt="twiter icon"
+            />
+          </a>
+        </center>
+      </footer>
+    </div>
+  </body>
+</html>

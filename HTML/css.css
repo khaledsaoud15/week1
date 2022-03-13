@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+}
+.header nav ul {
+  display: inline-block;
+}
+.header nav ul li {
+  display: inline-block;
+  position: relative;
+  top: -10px;
+}
+.header nav ul li a {
+  margin-left: 20px;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.header nav img {
+  top: 10px;
+  position: relative;
+  left: 10px;
+}
+.header nav ul li a:hover {
+  color: rgb(0, 161, 22);
+}
+
+.hh {
+  text-align: center;
+}
+.hh figure img {
+  border-radius: 100%;
+}
+.hh p {
+  padding: 0 300px;
+  margin-bottom: 30px;
+}
+.hh a {
+  padding: 15px 15px;
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+}
+.hh a:hover {
+  color: rgb(0, 161, 22);
+}
+
+.mm table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 120 120;
+}
+.mm table thead {
+  background-color: #ccc;
+}
+.mm table tbody td {
+  padding: 10px;
+}
+.mm table tbody td:hover {
+  background-color: blue;
+}
+.mm h1 {
+  text-align: center;
+}
+.jj h1 {
+  text-align: center;
+}
